@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^MyBlog/', archive),
     url(r'^showStudents/$', showStudents),
+    url(r'^showRealStudents/$', showRealStudents)
 ]
